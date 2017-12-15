@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+#export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,14 +49,14 @@ export ZSH=$HOME/.oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#plugins=(git)
 
 # User configuration
 
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -84,9 +84,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias www='cd /var/www'
-alias -s php=vim
-alias -s html=vim
-alias -s gz='tar -xzvf'
+#alias -s php=vim
+#alias -s html=vim
+#alias -s gz='tar -xzvf'
 ## .bashrc
 ## User specific aliases and functions
 alias rm='rm -i'
@@ -124,12 +124,12 @@ utf82gbk(){
 alias utf2gbk='utf82gbk'
 alias sshvps='ssh yansiyu@120.26.44.201 -p11516'
 export EDITOR="/usr/bin/vim"
-bindkey -M viins 'jj' vi-cmd-mode
+#bindkey -M viins 'jj' vi-cmd-mode
 #autoload -U promptinit
 #promptinit
 #prompt elite2 yellow
 #prompt adam1 orange
-bindkey -v
+#bindkey -v
 alias video='cd /mnt/sdaOrangePi/PiMotion/2016/$(date +%m%d)'
 alias shell='cd /mnt/sdaPi/pi/shell'
 alias www='cd /mnt/sdaOrangePi/www'
