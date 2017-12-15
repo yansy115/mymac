@@ -95,7 +95,7 @@ alias mv='mv -i'
 PATH=$PATH:/sbin:/usr/local/bin
 myrm(){ D=/recycle/root/$(date +%Y%m%d%H%M%S); mkdir -p $D;  mv "$@" $D && echo "moved to $D ok"; }
 alias rm='myrm'
-#bind "set completion-ignore-case on"
+bind "set completion-ignore-case on"
 newcp(){ cp "$@" "$@".$(date +%Y%m%d%H%M%S) && echo "bak file ok"; }
 alias ncp='newcp'
 ftime(){ 
